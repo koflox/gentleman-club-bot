@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d67b8a93-8ccb-42ea-a06c-d231409f7e34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="21" selection-end-column="24" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#24#202#0" expanded="true" />
               </folding>
@@ -135,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/data/SubredditPhotosResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ImgurApiService.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/GentlemanClubBot.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt" />
       </list>
     </option>
   </component>
@@ -197,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -221,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.GentlemanClubBotKt">
+  <component name="RunManager" selected="Kotlin.com.koflox.bot.Main">
     <configuration name="GentlemanClubBotKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Bot.main" />
       <option name="VM_PARAMETERS" />
@@ -248,8 +248,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.koflox.bot.Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Bot.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.koflox.bot.Main" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.koflox.bot.Main" />
         <item itemvalue="Kotlin.GentlemanClubBotKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -424,16 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.3-bin/31t79e2qsceia4mkbojplrgx/gradle-4.10.3/lib/plugins/gradle-plugins-4.10.3.jar!/org/gradle/api/plugins/ApplicationPluginConvention.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -451,7 +455,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="21" selection-end-column="24" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/koflox/bot/app.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#24#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,6 +475,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Bot.main:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -511,7 +526,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
