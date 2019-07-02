@@ -1,4 +1,4 @@
-package data
+package com.koflox.bot.data
 
 data class AdConfig(
     val highRiskFlags: List<String> = listOf(),

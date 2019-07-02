@@ -1,4 +1,4 @@
-package data
+package com.koflox.bot.data
 
 data class Data(
     val account_id: Any = Any(),

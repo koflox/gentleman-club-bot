@@ -1,6 +1,6 @@
-import org.telegram.telegrambots.ApiContextInitializer
+package com.koflox.bot
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot
-import org.telegram.telegrambots.meta.TelegramBotsApi
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.objects.Message
 import org.telegram.telegrambots.meta.api.objects.Update
@@ -29,7 +29,7 @@ class GentlemanClubBot : TelegramLongPollingBot() {
         retrofit.create(ImgurApiService::class.java)
     }
 
-    override fun getBotUsername() = "GentlemanClubBot"
+    override fun getBotUsername() = "com.koflox.bot.GentlemanClubBot"
 
     override fun getBotToken() = "827293121:AAHeDjjc-Q9_U6k5_Q3ag5ca2EX4tLnxGIk"
 
@@ -105,15 +105,6 @@ class GentlemanClubBot : TelegramLongPollingBot() {
         }
     }
 
-}
-
-fun main() {
-    ApiContextInitializer.init()
-    try {
-        TelegramBotsApi().registerBot(GentlemanClubBot())
-    } catch (e: TelegramApiException) {
-        e.printStackTrace()
-    }
 }
 
 fun getRetrofitClient(): Retrofit {

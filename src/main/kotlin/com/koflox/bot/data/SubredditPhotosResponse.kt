@@ -1,4 +1,4 @@
-package data
+package com.koflox.bot.data
 
 data class SubredditPhotosResponse(
     val data: List<Data> = listOf(),
